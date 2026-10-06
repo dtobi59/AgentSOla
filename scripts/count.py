@@ -21,5 +21,7 @@ for file in files:
     c[(r["utility"], r["security"])] += 1
     print(file, r["utility"], r["security"])
 
+#print result
 print("\nutility, security -> count")
-for k, v in sorted(c.items()): print(k, v)
+for k, v in sorted(c.items()): 
+    print(k, v)
